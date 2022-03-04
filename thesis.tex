@@ -1,0 +1,182 @@
+\documentclass{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                   %
+%              Template by Tuur Vanhoutte           %
+% https://github.com/zjeffer/howest-thesis-template %
+%                                                   % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% Package importing %%%%%
+\usepackage[english]{babel}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage[parfill]{parskip}
+\usepackage{eso-pic}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{changepage}
+
+%%%%% Change fonts here %%%%%
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\graphicspath{{img/}}
+
+%%%%% \theorem environment %%%%%
+\usepackage{amssymb}
+\newtheorem{theorem}{Definition}[section]
+\newenvironment{thmenum}
+ {\begin{enumerate}[label=\upshape\bfseries(\roman*)]}
+ {\end{enumerate}}
+
+
+%%%%% Styled code block %%%%%
+\usepackage{minted}
+\setminted{frame=single,framesep=3pt,linenos}
+\usepackage{upquote}
+\usepackage{color}
+
+%%%%% TOC styling %%%%%
+\makeatletter
+\renewcommand\tableofcontents{%
+  \null\hfill\textbf{\Huge\contentsname}\hfill\null\par
+  \vline\noexpand\rule{\textwidth}{1pt}%
+  \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+  \@starttoc{toc}%
+}
+\makeatother
+
+
+\begin{document}
+
+%%%%% title page %%%%%
+\begin{titlepage}
+    \newgeometry{margin=0cm}
+    \begin{center}
+        %%%%% Change the cover image here %%%%%
+        \includegraphics[width=18.5cm,height=18.5cm]{example-image}
+    \end{center}
+    \begin{adjustwidth}{1.5cm}{1.5cm}
+
+    \vspace{0.5em}
+
+    \MakeUppercase{\huge\textbf{Thesis title}}
+
+    \MakeUppercase{\Large\textit{Optional subtitle}}
+
+    \vspace{1em}
+
+    \MakeUppercase{Interal promotor: <name here>}
+
+    \MakeUppercase{External promotor: <name here>}
+
+    \vspace{1em}
+
+    \MakeUppercase{\small{Research conducted by}}
+
+    \MakeUppercase{\Large\textbf{{Author}}}
+
+    \MakeUppercase{\small{for obtaining a bachelor's degree in}}
+
+    \MakeUppercase{\Large{\textbf{{Multimedia \& Creative Technologies}}}}
+
+    \MakeUppercase{Howest | 2021-2022}
+    \end{adjustwidth}
+\end{titlepage}
+
+\newgeometry{margin=2cm}
+
+
+%%%%% Set pagenumbering from here %%%%%
+\pagenumbering{arabic}
+
+%%%%% Preface %%%%%
+\section*{Preface}
+\addcontentsline{toc}{section}{Preface}
+\newpage
+
+%%%%% Abstract %%%%%
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+\newpage
+
+%%%%% Table of contents %%%%%
+\addcontentsline{toc}{section}{Contents}
+\tableofcontents
+\newpage
+
+%%%%% List of figures %%%%%
+\newpage
+\section*{List of figures}
+\addcontentsline{toc}{section}{List of figures}
+
+
+%%%%% List of abbreviations %%%%%
+\newpage
+\section*{List of abbreviations}
+\addcontentsline{toc}{section}{List of abbreviations}
+
+%%%%% Glossary %%%%%
+\newpage
+\section*{Glossary}
+\addcontentsline{toc}{section}{Glossary}
+
+%%%%% Introduction %%%%%
+\newpage
+\setcounter{section}{0}
+\section{Introduction}
+
+%%%%% Add Howest background %%%%%
+\AddToShipoutPicture{
+    \ifnum\value{page}>0
+    \AtPageLowerLeft{
+    \raisebox{3\baselineskip}{\makebox[0.25\paperwidth]{
+        \begin{minipage}{21cm}\centering
+            \includegraphics{img/background.png}
+        \end{minipage}}}
+    }
+  \fi
+}
+
+%%%%% Research %%%%%
+\newpage
+\section{Research}
+
+%%%%% Technical research %%%%%
+\newpage
+\section{Technical research}
+
+%%%%% Reflection %%%%%
+\newpage
+\section{Reflection}
+
+%%%%% Advice %%%%%
+\newpage
+\section{Advice}
+
+%%%%% Conclusion %%%%%
+\newpage
+\section{Conclusion}
+
+%%%%% Bibliography %%%%%
+\newpage
+\section{Bibliography}
+
+%%%%% Appendix %%%%%
+\newpage
+\section{Appendix}
+
+
+
+
+
+\end{document}
