@@ -1,12 +1,5 @@
 \documentclass{article}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                                   %
-%              Template by Tuur Vanhoutte           %
-% https://github.com/zjeffer/howest-thesis-template %
-%                                                   % 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %%%%% Package importing %%%%%
 \usepackage[english]{babel}
 \usepackage[margin=1.5cm]{geometry}
@@ -60,7 +53,7 @@
 
 %%%%% title page %%%%%
 \begin{titlepage}
-    \newgeometry{margin=0cm}
+    \newgeometry{margin=0.5cm}
     \begin{center}
         %%%%% Change the cover image here %%%%%
         \includegraphics[width=18.5cm,height=18.5cm]{example-image}
@@ -69,21 +62,21 @@
 
     \vspace{0.5em}
 
-    \MakeUppercase{\huge\textbf{Thesis title}}
+    \MakeUppercase{\huge\textbf{What is the best AI model for forecasting crypto currency courses using open source data?}}
 
-    \MakeUppercase{\Large\textit{Optional subtitle}}
+    % \MakeUppercase{\Large\textit{Optional subtitle}}
 
     \vspace{1em}
 
-    \MakeUppercase{Interal promotor: <name here>}
+    \MakeUppercase{Interal promotor: Wouter Gevaert}
 
-    \MakeUppercase{External promotor: <name here>}
+    \MakeUppercase{External promotor: * Deprez}
 
     \vspace{1em}
 
     \MakeUppercase{\small{Research conducted by}}
 
-    \MakeUppercase{\Large\textbf{{Author}}}
+    \MakeUppercase{\Large\textbf{{Joren vanGoethem}}}
 
     \MakeUppercase{\small{for obtaining a bachelor's degree in}}
 
@@ -100,19 +93,31 @@
 \pagenumbering{arabic}
 
 %%%%% Preface %%%%%
+\newpage
+\newpage
 \section*{Preface}
 \addcontentsline{toc}{section}{Preface}
-\newpage
+This bachelor's thesis is the final part of achieving my bachelor's degree in Multimedia and Creative Technologies at Howest with specialisation AI Engineer.
+To make a bachelor's thesis every student had to make a research project in the previous semester about the subject they want to use for their thesis. Over the course of 3 weeks each student had to perform research on their own or in pairs of 2 and in the 4th week give a demonstration showing what they researched and created.
+
+This thesis is about using Neural networks, and more specifically LSTM networks, for use in automated trading bots in the hope that this would be capable of trading autonomously and be profitable using only publicly available data and researching what worked and what did not.
 
 %%%%% Abstract %%%%%
+\newpage
+\newpage
 \section*{Abstract}
 \addcontentsline{toc}{section}{Abstract}
-\newpage
+During my research in what neural networks types would work and which would not I found that LSTM's were the best option. Because of their 'memory' they are more capable at predicting time series data because the direction is not only determined by the last candle or few candles but rather by the last few hours or possibly even days.
+
+Now that the model type was clear, I still had to do some research. how many layers was I going to use, how large should these layers be, how am I going to train the model, etc.
+Most of this was not something I could easily find online and was determined by trial and error which was a time consuming process since training takes a while when using LSTM's.
+
+One of the most important parts of this research was ofcourse the data I was going to use. When using neural networks it is always very important to make sure your data is not faulty, is complete and has no missing pieces or irrelevant data. The amount of data you have is also crucial but this will be discussed later on in my thesis. How I retreived and preprocessed the data will also be discussed in this thesis for that is a very important step.
 
 %%%%% Table of contents %%%%%
+\newpage
 \addcontentsline{toc}{section}{Contents}
 \tableofcontents
-\newpage
 
 %%%%% List of figures %%%%%
 \newpage
