@@ -6,27 +6,26 @@
 * [ ] simpele test resultaten maken
 ### code examples van labelling
 - [x] fotos van labelling
-- [ ] uitleg over alle code
-- [ ] in BP zetten
+- [x] uitleg over code
+- [x] in BP zetten
 ### model vergelijkingen met test resultaten
 * [ ] model resultaten maken/verzamelen, text & images
 ### LSTM uitleg uitbreiden dat het concept duidelijk is
 * [ ] simpele uitleg over het geheugen ipv complex
 ### uitleg bij scaling, hoe en waarom
-* [ ] hoe hebben we scaling gedaan, toon code
+* [x] hoe hebben we scaling gedaan, toon code
 * [ ] waarom is scaling belangrijk bij AI 
-### sterke en zwakke punten uitbreiden
+
+### Reflectie UITWERKEN, BELANGRIJK
+* [ ] resultaat, verwachtingen
+* [ ] bruikbaarheid / implementatie
+* [ ] alternatieven
+* [ ] meerwaarde
+* [ ] vervolgonderzoek, RL, explainable AI, C++, model layout
+### sterke en zwakke punten uitbreiden reflectie
 * [ ] sterke / zwakke punten van LSTM
 * [ ] sterke / zwakke punten van supervised learning
 * [ ] sterke / zwakke punten van ons model / resulaat
-### bruikbaarheid / implementatie uitbreiden
-* [ ] hoe bruikbaar & ease of setup
-### alternatieven uitbreiden, commercieel beschikbare alternatieven
-* 
-### meerwaarde uitbreiden, waarom wel niet, voor wie wel niet
-* 
-### vervolgonderzoek uitbreiden, explainable AI, labelling/RL
-* 
 ### ADVIES UITWERKEN, BELANGRIJK
 * [ ] model type
 * [ ] training type
