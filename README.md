@@ -11,7 +11,7 @@
 ### model vergelijkingen met test resultaten
 * [ ] model resultaten maken/verzamelen, text & images
 ### LSTM uitleg uitbreiden dat het concept duidelijk is
-* [ ] simpele uitleg over het geheugen ipv compplex
+* [ ] simpele uitleg over het geheugen ipv complex
 ### uitleg bij scaling, hoe en waarom
 * [ ] hoe hebben we scaling gedaan, toon code
 * [ ] waarom is scaling belangrijk bij AI 
@@ -28,7 +28,12 @@
 ### vervolgonderzoek uitbreiden, explainable AI, labelling/RL
 * 
 ### ADVIES UITWERKEN, BELANGRIJK
-* 
+* [ ] model type
+* [ ] training type
+* [ ] data verzameling/labelling
+* [ ] explainable AI
+* [ ] risicos
+* [ ] do's en don't's
 
 ### Literatuurlijst uitbreiden
 * [ ] alle gebruikte libraries
