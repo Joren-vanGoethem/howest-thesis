@@ -14,24 +14,24 @@
 * [ ] simpele uitleg over het geheugen ipv complex
 ### uitleg bij scaling, hoe en waarom
 * [x] hoe hebben we scaling gedaan, toon code
-* [ ] waarom is scaling belangrijk bij AI 
+* [x] waarom is scaling belangrijk bij AI 
 
 ### Reflectie UITWERKEN, BELANGRIJK
 * [ ] resultaat, verwachtingen
-* [ ] bruikbaarheid / implementatie
-* [ ] alternatieven
-* [ ] meerwaarde
-* [ ] vervolgonderzoek, RL, explainable AI, C++, model layout
+* [x] bruikbaarheid / implementatie
+* [x] alternatieven
+* [x] meerwaarde
+* [x] vervolgonderzoek, RL, explainable AI, C++, model layout
 ### sterke en zwakke punten uitbreiden reflectie
 * [ ] sterke / zwakke punten van LSTM
 * [ ] sterke / zwakke punten van supervised learning
 * [ ] sterke / zwakke punten van ons model / resulaat
 ### ADVIES UITWERKEN, BELANGRIJK
-* [ ] model type
-* [ ] training type
-* [ ] data verzameling/labelling
-* [ ] explainable AI
-* [ ] risicos
+* [x] model type
+* [x] training type
+* [x] data verzameling/labelling
+* [x] explainable AI
+* [x] risicos
 * [ ] do's en don't's
 
 ### Literatuurlijst uitbreiden
