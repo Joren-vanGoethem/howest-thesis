@@ -9,7 +9,7 @@
 - [x] uitleg over code
 - [x] in BP zetten
 ### model vergelijkingen met test resultaten
-* [ ] model resultaten maken/verzamelen, text & images
+* [x] model resultaten maken/verzamelen, text & images
 ### LSTM uitleg uitbreiden dat het concept duidelijk is
 * [ ] simpele uitleg over het geheugen ipv complex
 ### uitleg bij scaling, hoe en waarom
@@ -17,7 +17,7 @@
 * [x] waarom is scaling belangrijk bij AI 
 
 ### Reflectie UITWERKEN, BELANGRIJK
-* [ ] resultaat, verwachtingen
+* [x] resultaat, verwachtingen
 * [x] bruikbaarheid / implementatie
 * [x] alternatieven
 * [x] meerwaarde
@@ -32,7 +32,7 @@
 * [x] data verzameling/labelling
 * [x] explainable AI
 * [x] risicos
-* [ ] do's en don't's
+* [x] do's en don't's
 
 ### Literatuurlijst uitbreiden
 * [ ] alle gebruikte libraries
